@@ -1,5 +1,5 @@
-require('rspec')
-require_relative('./main')
+require 'rspec' 
+require_relative './main'
 
 describe Customer do
   describe 'should start with a name and a budget' do
